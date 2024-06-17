@@ -367,7 +367,10 @@ export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
     - click "OK" at the bottom
     - Optionnaly (if you need to go through an HTTP proxy)
         - in the upper half, click on "New..."
-        - enter `HTTPS_PROXY` under "Variable name" and your proxy address (like : http://my-http-proxy:3128)
+        - enter `HTTPS_PROXY` under "Variable name" and your proxy address (like : http://user:password@my-http-proxy:3128) (this one is needed for ghcup instructions)
+        - click "OK" at the bottom
+        - in the upper half, click on "New..."
+        - enter `http_proxy` under "Variable name" and your proxy address (like : http://user:password@my-http-proxy:3128) (this one is needed for cabal update instruction)
         - click "OK" at the bottom
     - click "OK" at the bottom
     - click "OK" at the bottom
